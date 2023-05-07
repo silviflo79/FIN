@@ -1,0 +1,35 @@
+
+
+/* En resumen respecto a los selectores de acceso tenemos el DocType id y class. Si nos centramos en CSS3,
+estos selectores serán un enlace directo al elemento, trasladando toda su naturaleza de desarrollo.*/
+
+#resultado5 {
+
+    /*Las medidas son necesarias para dar visualizaciones óptimas/razonables. Nos permite referenciar y plasmar
+    realidades plausibles
+    Ej: em, rem, px, pto
+    1º un em = en tamaño y visualización de área de una 'M' 16px. (es un salto de línea)
+    un rem=16px.
+    */
+
+    width: 15.62rem; /*ancho*/
+    height: 15rem;
+    position: relative;
+    background-color: rgb(15, 179, 212);
+    margin: 30px auto; /*sería igual que poner 30px auto 30px auto*/
+    padding: 54px;
+    border-radius: 0 0 0 30px/45px; /*elipse*/
+    box-shadow:
+    inset 0 -40px 40px rgba(0,0,0,0.2),
+    inset 0 25px 10px rgba(0, 0, 0, 0.2),
+     0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    /*font size:19px;*/
+    
+
+}
+    
+
+   /* .dosMAyo{}*/
+
+
+
